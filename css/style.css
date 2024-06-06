@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@300&family=Poppins&family=Rubik+Dirt&display=swap');
 
 :root {
-    --main-color: #d3ad7f;
+    --main-color: #890202;
     --black: #13131a;
     --bg: #010103;
     --border: .1rem solid #000;
+    --bronze: #652c17;
+    --prata: #a49f9b;
+    --ouro: #f6ac2d;
 }
 
 * {
@@ -60,6 +63,11 @@ section {
 }
 
 .heading span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.content span {
     color: var(--main-color);
     text-transform: uppercase;
 }
@@ -158,7 +166,7 @@ section {
 }
 
 .home .content p {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: normal;
     text-align: justify;
     line-height: 1.8;
@@ -218,14 +226,14 @@ section {
 }
 
 
-.festas .box-container {
+.Patrocínio .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
 
-.festas p#about-parties {
-    font-size: 1.5em;
+.Patrocínio p#about-event {
+    font-size: 1.8em;
     font-weight: lighter;
     text-align: center;
     line-height: 1.8;
@@ -234,7 +242,7 @@ section {
 
 }
 
-.festas .box-container .box {
+.Patrocínio .box-container .box {
     text-align: center;
     border: var(--border);
     padding: 2rem;
@@ -245,23 +253,54 @@ section {
 
 
 
-.festas .box-container .box .image {
+.Patrocínio .box-container .box .image {
     padding: 2.5rem 0;
 }
 
-.festas .box-container .box .image img {
+.Patrocínio .box-container .box .image img {
     height: 25rem;
     border-radius: 10px;
 }
 
-.festas .box-container .box .content h3 {
+.Patrocínio .box-container .box .content h3 {
     color: #fff;
     font-size: 2.5rem;
     padding: 2rem 0;
 
 }
 
-.festas .box-container .box .content .descricao-festa {
+.Patrocínio .box-container .box .content h2 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem 0;
+
+}
+
+.Patrocínio .box-container .box .content .descricao-evento {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#cota-bronze span {
+    color: var(--bronze);
+    text-transform: uppercase;
+}
+
+#cota-prata span {
+    color: var(--prata);
+    text-transform: uppercase;
+}
+
+#cota-ouro span {
+    color: var(--ouro);
+    text-transform: uppercase;
+}
+
+#lista-cota {
+    list-style: none;
     color: #fff;
     font-size: 1.5rem;
     font-weight: lighter;
@@ -352,7 +391,7 @@ section {
 }
 
 
-.footer .general-info .milo-garage-copyright {
+.footer .general-info .tunicamps-copyright {
     font-family: Rubik Moonrocks;
     font-size: 2.5rem;
     font-style: normal;
@@ -364,7 +403,7 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-.footer .general-info .milo-garage-address-footer {
+.footer .general-info .tunicamps-address-footer {
     color: #FFF;
     font-family: Josefin Sans;
     font-size: 1.5rem;
