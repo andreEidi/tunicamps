@@ -18,7 +18,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-/*     text-transform: capitalize; */
+    /*text-transform: capitalize; */
     transition: .2s linear;
 }
 
@@ -57,19 +57,19 @@ section {
 .heading {
     text-align: center;
     color: #fff;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding-bottom: 3.5rem;
     font-size: 4rem;
 }
 
 .heading span {
     color: var(--main-color);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .content span {
     color: var(--main-color);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .btn {
@@ -161,7 +161,7 @@ section {
 
 .home .content h3 {
     font-size: 6rem;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: #fff;
 }
 
@@ -286,17 +286,17 @@ section {
 
 #cota-bronze span {
     color: var(--bronze);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 #cota-prata span {
     color: var(--prata);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 #cota-ouro span {
     color: var(--ouro);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 #lista-cota {
@@ -337,7 +337,7 @@ section {
     font-weight: lighter;
     text-align: center;
     word-wrap: break-word;
-    text-transform: none;
+    /*text-transform: uppercase;*/
 }
 
 .contato .row {
@@ -358,7 +358,7 @@ section {
 }
 
 .contato .row .side-info-map h3 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 3.5rem;
     color: #fff;
     padding: 5rem;
@@ -371,12 +371,12 @@ section {
     font-weight: lighter;
     text-align: center;
     padding: 2rem;
-    text-transform: none;
+    /*text-transform: uppercase;*/
 }
 
 .contato .row .side-info-map a {
     color: inherit;
-    text-transform: none;
+    /*text-transform: uppercase;*/
 }
 
 
